@@ -34,6 +34,31 @@ namespace Inventory_Management
             bundles.Add(new ScriptBundle("~/bundles/guest-js").Include(
                 "~/Scripts/jquery-3.4.1.min.js"
                 ));
+
+            bundles.Add(new StyleBundle("~/Content/admin-css").Include(
+                    "~/Content/Assets/vendors/feather/feather.css",
+                    "~/Content/Assets/vendors/mdi/css/materialdesignicons.min.css",
+                    "~/Content/Assets/vendors/ti-icons/css/themify-icons.css",
+                    "~/Content/Assets/vendors/font-awesome/css/font-awesome.min.css",
+                    "~/Content/Assets/vendors/typicons/typicons.css",
+                    "~/Content/Assets/vendors/simple-line-icons/css/simple-line-icons.css",
+                    "~/Content/Assets/vendors/css/vendor.bundle.base.css",
+                    "~/Content/Assets/vendors/bootstrap-datepicker/bootstrap-datepicker.min.css",
+                    "~/Content/Assets/css/style.css"
+                ));
+
+            bundles.Add(new ScriptBundle("~/bundles/admin-base-js").Include(
+                "~/Scripts/Assets/vendors/js/base.js"
+                ));
+
+            bundles.Add(new ScriptBundle("~/bundles/admin-js").Include(
+                    "~/Scripts/Assets/vendors/bootstrap-datepicker/bootstrap-datepicker.min.js",
+                    "~/Scripts/Assets/js/off-canvas.js",
+                    "~/Scripts/Assets/js/hoverable-collapse.js",
+                    "~/Scripts/Assets/js/template.js",
+                    "~/Scripts/Assets/js/settings.js",
+                    "~/Scripts/Assets/js/todolist.js"
+            ));
         }
     }
 }
