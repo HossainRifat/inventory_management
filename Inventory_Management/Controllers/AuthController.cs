@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Inventory_Management.Models;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Web;
@@ -13,5 +14,28 @@ namespace Inventory_Management.Controllers
         {
             return View();
         }
+
+        // POST: Auth
+        [HttpPost]
+        public ActionResult Login(User user)
+        {
+            User demoUser = new User();
+            demoUser.Username = "admin";
+            demoUser.Password = "12345678";
+            demoUser.Role = Roles.Admin;
+
+            if(demoUser.Username == user.Username && demoUser.Password == user.Password)
+            {
+                Session["username"] = demoUser.Username;
+                Session["role"] = demoUser.Role;
+                return RedirectToAction("Index", "Dashboard");
+            }
+            else
+            {
+                ViewBag.error = "Invalid username or password!";
+                return View("Index");
+            }
+        }
+
     }
 }

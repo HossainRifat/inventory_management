@@ -25,6 +25,15 @@ namespace Inventory_Management
             bundles.Add(new StyleBundle("~/Content/css").Include(
                       "~/Content/bootstrap.css",
                       "~/Content/site.css"));
+
+            bundles.Add(new StyleBundle("~/Content/guest-css").Include(
+                "~/Content/bootstrap.min.css",
+                "~/Content/guest.css"
+                ));
+
+            bundles.Add(new ScriptBundle("~/bundles/guest-js").Include(
+                "~/Scripts/jquery-3.4.1.min.js"
+                ));
         }
     }
 }

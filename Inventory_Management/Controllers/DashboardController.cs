@@ -11,6 +11,11 @@ namespace Inventory_Management.Controllers
         // GET: Dashboard
         public ActionResult Index()
         {
+            if (Session["username"] == null || Session["role"] == null)
+            {
+                return RedirectToAction("Index", "Auth");
+            }
+
             return View();
         }
     }

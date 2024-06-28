@@ -5,6 +5,11 @@ using System.Web;
 
 namespace Inventory_Management.Models
 {
+    public enum Roles
+    {
+        Admin = 1,
+        Manager = 2
+    }
     public class User
     {
         public int Id { get; set; }
@@ -15,5 +20,7 @@ namespace Inventory_Management.Models
         public int Status { get; set; }
         public bool IsEmailVerified { get; set; }
         public bool IsPhoneVerified { get; set; }
+        public Roles Role { get; set; }
+
     }
 }
