@@ -1,0 +1,64 @@
+﻿
+@{
+    Layout = null;
+}
+
+@model Inventory_Management.Models.User
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Index</title>
+    @Styles.Render("~/Content/css")
+    @Scripts.Render("~/bundles/modernizr")
+
+    <style>
+        .login-container {
+            width: 400px;
+            height: 500px;
+            border: 1px solid rgba(0, 0, 0, 0.23);
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            background-color: #f8f9fa;
+            padding: 20px;
+            border-radius: 5px;
+            box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+            background-color: #f8f9fa;
+        }
+
+
+    </style>
+</head>
+<body>
+
+    <div class="login-container">
+        <h4 class="text-center">Login</h4>
+        <form method="post" action="/login">
+            <div class="form-group mt-4">
+                @Html.LabelFor(m => m.Email)
+                @Html.TextBoxFor(m => m.Email, new { @class = "form-control" })
+            </div>
+            <div class="form-group mt-4">
+                @Html.LabelFor(m => m.Password)
+                @Html.PasswordFor(m => m.Password, new { @class = "form-control" })
+            </div>
+            <div class="form-group mt-4">
+                <button type="submit" class="btn btn-primary w-100">Login</button>
+            </div>
+            <div class="form-group mt-2 text-end">
+                <p><a href="/register">Register</a></p>
+            </div>
+        </form>
+    </div>
+
+
+
+
+    @Scripts.Render("~/bundles/jquery")
+    @Scripts.Render("~/bundles/bootstrap")
+</body>
+</html>
