@@ -126,10 +126,12 @@
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
+    <Compile Include="Models\Equipment.cs" />
     <Compile Include="Models\User.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Content\Assets\common.css" />
     <Content Include="Content\Assets\css\light\common.css" />
     <Content Include="Content\Assets\css\style.css" />
     <Content Include="Content\Assets\images\arrow-down-dark.svg" />
@@ -755,6 +757,7 @@
     <Content Include="favicon.ico" />
     <Content Include="Global.asax" />
     <Content Include="Content\Site.css" />
+    <Content Include="Scripts\Assets\common.js" />
     <Content Include="Scripts\Assets\js\chart.js" />
     <Content Include="Scripts\Assets\js\Chart.roundedBarCharts.js" />
     <Content Include="Scripts\Assets\js\codemirror.js" />
@@ -1505,6 +1508,9 @@
     <Content Include="Views\Auth\Index.cshtml" />
     <Content Include="Views\Shared\_LayoutAdmin.cshtml" />
     <Content Include="Views\Dashboard\Index.cshtml" />
+    <Content Include="Views\Shared\Partials\_PartialTopnav.cshtml" />
+    <Content Include="Views\Shared\Partials\_PartialSidenav.cshtml" />
+    <Content Include="Views\Shared\Partials\_PartialFooter.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

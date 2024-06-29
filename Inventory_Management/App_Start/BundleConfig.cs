@@ -44,7 +44,8 @@ namespace Inventory_Management
                     "~/Content/Assets/vendors/simple-line-icons/css/simple-line-icons.css",
                     "~/Content/Assets/vendors/css/vendor.bundle.base.css",
                     "~/Content/Assets/vendors/bootstrap-datepicker/bootstrap-datepicker.min.css",
-                    "~/Content/Assets/css/style.css"
+                    "~/Content/Assets/css/style.css",
+                    "~/Content/Assets/common.css"
                 ));
 
             bundles.Add(new ScriptBundle("~/bundles/admin-base-js").Include(

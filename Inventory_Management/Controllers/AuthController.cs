@@ -12,7 +12,10 @@ namespace Inventory_Management.Controllers
         // GET: Auth
         public ActionResult Index()
         {
-            return View();
+            User user = new User();
+            user.Username = "admin";
+
+            return View(user);
         }
 
         // POST: Auth
