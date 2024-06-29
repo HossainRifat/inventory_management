@@ -40,5 +40,12 @@ namespace Inventory_Management.Controllers
             }
         }
 
+        // GET: Auth
+        public ActionResult Logout()
+        {
+            Session.Clear();
+            return RedirectToAction("Index");
+        }
+
     }
 }

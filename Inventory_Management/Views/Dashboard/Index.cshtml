@@ -1,8 +1,163 @@
 ﻿
+@using Inventory_Management.Models;
 @{
     ViewBag.Title = "Index";
     Layout = "~/Views/Shared/_LayoutAdmin.cshtml";
 }
 
-<h2>Index</h2>
+<div class="row">
+    <div class="col-12 col-md-6">
+        <div class="row flex-grow">
+            <div class="col-12 grid-margin stretch-card">
+                <div class="card card-rounded border shadow">
+                    <div class="card-body">
+                        <div class="d-sm-flex justify-content-between align-items-start">
+                            <div>
+                                <h4 class="card-title card-title-dash">Equipment List</h4>
+                                <p class="card-subtitle card-subtitle-dash">Latest equipment list</p>
+                            </div>
+                        </div>
+                        <div class="table-responsive">
+                            <table class="table">
+                                <thead>
+                                    <tr>
+                                        <th>Name</th>
+                                        <th>Quantity</th>
+                                        <th>Created</th>
+                                        <th>Status</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    @{
+                                        List<Equipment> equipments = Equipment.equipments;
+                                        foreach (var equipment in equipments)
+                                        {
+                                            <tr>
+                                                <td>@equipment.Name</td>
+                                                <td>@equipment.Quantity</td>
+                                                <td>@equipment.CreatedAt</td>
+                                                <td>
+                                                    @if (equipment.Status == Inventory_Management.Models.EquipmentStatus.Active)
+                                                    {
+                                                        <span class="badge badge-success">Active</span>
+                                                    }
+                                                    else if (equipment.Status == Inventory_Management.Models.EquipmentStatus.Inactive)
+                                                    {
+                                                        <span class="badge badge-danger">Inactive</span>
+                                                    }
+                                                </td>
+                                            </tr>
+                                        }
+                                    }
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="col-12 col-md-6">
+        <div class="row flex-grow">
+            <div class="col-12 grid-margin stretch-card">
+                <div class="card card-rounded border shadow">
+                    <div class="card-body">
+                        <div class="d-sm-flex justify-content-between align-items-start">
+                            <div>
+                                <h4 class="card-title card-title-dash">Member List</h4>
+                                <p class="card-subtitle card-subtitle-dash">Latest member list</p>
+                            </div>
+                        </div>
+                        <div class="table-responsive">
+                            <table class="table">
+                                <thead>
+                                    <tr>
+                                        <th>Id</th>
+                                        <th>Name</th>
+                                        <th>Email</th>
+                                        <th>Role</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    @{
+
+                                        List<Inventory_Management.Models.User> users = Inventory_Management.Models.User.MemberList();
+                                        foreach (var user in users)
+                                        {
+                                            <tr>
+                                                <td>@user.Id</td>
+                                                <td>@user.Name</td>
+                                                <td>@user.Email</td>
+                                                <td><span class="badge badge-info">@user.Role</span></td>
+                                            </tr>
+                                        }
+                                    }
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="col-12 col-md-12">
+        <div class="row flex-grow">
+            <div class="col-12 grid-margin stretch-card">
+                <div class="card card-rounded border shadow">
+                    <div class="card-body">
+                        <div class="d-sm-flex justify-content-between align-items-start">
+                            <div>
+                                <h4 class="card-title card-title-dash">Assigned Equipment</h4>
+                                <p class="card-subtitle card-subtitle-dash">Assigned equipment to members</p>
+                            </div>
+                        </div>
+                        <div class="table-responsive">
+                            <table class="table">
+                                <thead>
+                                    <tr>
+                                        <th>Name</th>
+                                        <th>Quantity</th>
+                                        <th>Created</th>
+                                        <th>Status</th>
+                                        <th>Member Name</th>
+                                        <th>Member Email</th>
+                                        <th>Member Role</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    @{
+                                        List<Equipment> assignedEquipments = Equipment.GetAssignedEquipments();
+                                        foreach (var equipment in assignedEquipments)
+                                        {
+                                            <tr>
+                                                <td>@equipment.Name</td>
+                                                <td>@equipment.Quantity</td>
+                                                <td>@equipment.CreatedAt</td>
+                                                <td>
+                                                    @if (equipment.Status == Inventory_Management.Models.EquipmentStatus.Active)
+                                                    {
+                                                        <span class="badge badge-success">Active</span>
+                                                    }
+                                                    else if (equipment.Status == Inventory_Management.Models.EquipmentStatus.Inactive)
+                                                    {
+                                                        <span class="badge badge-danger">Inactive</span>
+                                                    }
+                                                </td>
+                                                <td>@equipment.AssignedUser.Name</td>
+                                                <td>@equipment.AssignedUser.Email</td>
+                                                <td><span class="badge badge-info">@equipment.AssignedUser.Role</span></td>
+                                            </tr>
+                                        }
+                                    }
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
 
