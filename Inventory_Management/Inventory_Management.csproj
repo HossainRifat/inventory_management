@@ -167,6 +167,7 @@
     <Content Include="Content\Assets\images\faces\profile\profile.jpg" />
     <Content Include="Content\Assets\images\favicon.ico" />
     <Content Include="Content\Assets\images\favicon.png" />
+    <Content Include="Content\Assets\images\logo-lg.png" />
     <Content Include="Content\Assets\images\logo-dark.svg" />
     <Content Include="Content\Assets\images\logo-light-1.svg" />
     <Content Include="Content\Assets\images\logo-light.svg" />
@@ -1505,12 +1506,13 @@
     <Content Include="Views\Home\About.cshtml" />
     <Content Include="Views\Home\Contact.cshtml" />
     <Content Include="Views\Home\Index.cshtml" />
-    <Content Include="Views\Auth\Index.cshtml" />
+    <Content Include="Views\Auth\Login.cshtml" />
     <Content Include="Views\Shared\_LayoutAdmin.cshtml" />
     <Content Include="Views\Dashboard\Index.cshtml" />
     <Content Include="Views\Shared\Partials\_PartialTopnav.cshtml" />
     <Content Include="Views\Shared\Partials\_PartialSidenav.cshtml" />
     <Content Include="Views\Shared\Partials\_PartialFooter.cshtml" />
+    <Content Include="Views\Shared\_LayoutAuth.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

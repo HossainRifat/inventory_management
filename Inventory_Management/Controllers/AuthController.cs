@@ -10,10 +10,12 @@ namespace Inventory_Management.Controllers
     public class AuthController : Controller
     {
         // GET: Auth
-        public ActionResult Index()
+        public ActionResult Login()
         {
             User user = new User();
             user.Username = "admin";
+
+            ViewBag.subModule = "Login";
 
             return View(user);
         }
@@ -44,7 +46,7 @@ namespace Inventory_Management.Controllers
         public ActionResult Logout()
         {
             Session.Clear();
-            return RedirectToAction("Index");
+            return RedirectToAction("Login");
         }
 
     }

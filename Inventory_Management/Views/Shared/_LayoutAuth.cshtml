@@ -1,0 +1,28 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>@ViewBag.subModule - Gudam Ghor </title>
+    @Styles.Render("~/Content/admin-css")
+    @RenderSection("head", required: false)
+</head>
+<body>
+    <div class="container-scroller">
+        <div class="container-fluid page-body-wrapper full-page-wrapper">
+            <div class="content-wrapper d-flex align-items-center auth px-0">
+                @RenderBody()
+            </div>
+            <!-- content-wrapper ends -->
+        </div>
+        <!-- page-body-wrapper ends -->
+    </div>
+
+    <script src="~/Scripts/jquery-3.4.1.js"></script>
+    <script src="~/Scripts/Assets/vendors/js/base.js"></script>
+    @Scripts.Render("~/bundles/admin-js")
+    <script src="~/Scripts/Assets/common.js"></script>
+    @RenderSection("scripts", required: false)
+</body>
+</html>

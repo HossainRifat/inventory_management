@@ -13,7 +13,7 @@ namespace Inventory_Management.Controllers
         {
             if (Session["username"] == null || Session["role"] == null)
             {
-                return RedirectToAction("Index", "Auth");
+                return RedirectToAction("Login", "Auth");
             }
 
             ViewBag.module = "Dashboard";

@@ -1,3 +1,11 @@
 ﻿.btn-sm{
     border-radius:6px !important;
 }
+
+.auth .brand-logo img {
+    width: 236px;
+}
+
+.navbar .navbar-brand-wrapper .navbar-brand img {
+    max-width: 154px;
+}
