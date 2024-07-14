@@ -3,52 +3,60 @@
   "WorkspaceRootPath": "E:\\1.SCHOOL\\SELF PROJECT\\Ostad-asp-core\\Inventory_Management\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{59C1B4BA-9776-488E-B157-CB91BDDA94C0}|Inventory_Management\\Inventory_Management.csproj|e:\\1.school\\self project\\ostad-asp-core\\inventory_management\\inventory_management\\content\\assets\\common.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
-      "RelativeMoniker": "D:0:0:{59C1B4BA-9776-488E-B157-CB91BDDA94C0}|Inventory_Management\\Inventory_Management.csproj|solutionrelative:inventory_management\\content\\assets\\common.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+      "AbsoluteMoniker": "D:0:0:{59C1B4BA-9776-488E-B157-CB91BDDA94C0}|Inventory_Management\\Inventory_Management.csproj|E:\\1.SCHOOL\\SELF PROJECT\\Ostad-asp-core\\Inventory_Management\\inventory_management\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{59C1B4BA-9776-488E-B157-CB91BDDA94C0}|Inventory_Management\\Inventory_Management.csproj|solutionrelative:inventory_management\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{59C1B4BA-9776-488E-B157-CB91BDDA94C0}|Inventory_Management\\Inventory_Management.csproj|e:\\1.school\\self project\\ostad-asp-core\\inventory_management\\inventory_management\\views\\shared\\partials\\_partialtopnav.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{59C1B4BA-9776-488E-B157-CB91BDDA94C0}|Inventory_Management\\Inventory_Management.csproj|solutionrelative:inventory_management\\views\\shared\\partials\\_partialtopnav.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{59C1B4BA-9776-488E-B157-CB91BDDA94C0}|Inventory_Management\\Inventory_Management.csproj|e:\\1.school\\self project\\ostad-asp-core\\inventory_management\\inventory_management\\views\\auth\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{59C1B4BA-9776-488E-B157-CB91BDDA94C0}|Inventory_Management\\Inventory_Management.csproj|solutionrelative:inventory_management\\views\\auth\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{59C1B4BA-9776-488E-B157-CB91BDDA94C0}|Inventory_Management\\Inventory_Management.csproj|e:\\1.school\\self project\\ostad-asp-core\\inventory_management\\inventory_management\\views\\dashboard\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{59C1B4BA-9776-488E-B157-CB91BDDA94C0}|Inventory_Management\\Inventory_Management.csproj|E:\\1.SCHOOL\\SELF PROJECT\\Ostad-asp-core\\Inventory_Management\\inventory_management\\views\\dashboard\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{59C1B4BA-9776-488E-B157-CB91BDDA94C0}|Inventory_Management\\Inventory_Management.csproj|solutionrelative:inventory_management\\views\\dashboard\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{59C1B4BA-9776-488E-B157-CB91BDDA94C0}|Inventory_Management\\Inventory_Management.csproj|e:\\1.school\\self project\\ostad-asp-core\\inventory_management\\inventory_management\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{59C1B4BA-9776-488E-B157-CB91BDDA94C0}|Inventory_Management\\Inventory_Management.csproj|solutionrelative:inventory_management\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{59C1B4BA-9776-488E-B157-CB91BDDA94C0}|Inventory_Management\\Inventory_Management.csproj|e:\\1.school\\self project\\ostad-asp-core\\inventory_management\\inventory_management\\viewmodels\\dashboardviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{59C1B4BA-9776-488E-B157-CB91BDDA94C0}|Inventory_Management\\Inventory_Management.csproj|solutionrelative:inventory_management\\viewmodels\\dashboardviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{59C1B4BA-9776-488E-B157-CB91BDDA94C0}|Inventory_Management\\Inventory_Management.csproj|E:\\1.SCHOOL\\SELF PROJECT\\Ostad-asp-core\\Inventory_Management\\inventory_management\\controllers\\dashboardcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{59C1B4BA-9776-488E-B157-CB91BDDA94C0}|Inventory_Management\\Inventory_Management.csproj|solutionrelative:inventory_management\\controllers\\dashboardcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{59C1B4BA-9776-488E-B157-CB91BDDA94C0}|Inventory_Management\\Inventory_Management.csproj|e:\\1.school\\self project\\ostad-asp-core\\inventory_management\\inventory_management\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{59C1B4BA-9776-488E-B157-CB91BDDA94C0}|Inventory_Management\\Inventory_Management.csproj|solutionrelative:inventory_management\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{59C1B4BA-9776-488E-B157-CB91BDDA94C0}|Inventory_Management\\Inventory_Management.csproj|E:\\1.SCHOOL\\SELF PROJECT\\Ostad-asp-core\\Inventory_Management\\inventory_management\\views\\auth\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{59C1B4BA-9776-488E-B157-CB91BDDA94C0}|Inventory_Management\\Inventory_Management.csproj|solutionrelative:inventory_management\\views\\auth\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{59C1B4BA-9776-488E-B157-CB91BDDA94C0}|Inventory_Management\\Inventory_Management.csproj|e:\\1.school\\self project\\ostad-asp-core\\inventory_management\\inventory_management\\views\\shared\\_layoutauth.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{59C1B4BA-9776-488E-B157-CB91BDDA94C0}|Inventory_Management\\Inventory_Management.csproj|solutionrelative:inventory_management\\views\\shared\\_layoutauth.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{59C1B4BA-9776-488E-B157-CB91BDDA94C0}|Inventory_Management\\Inventory_Management.csproj|E:\\1.SCHOOL\\SELF PROJECT\\Ostad-asp-core\\Inventory_Management\\inventory_management\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{59C1B4BA-9776-488E-B157-CB91BDDA94C0}|Inventory_Management\\Inventory_Management.csproj|solutionrelative:inventory_management\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{59C1B4BA-9776-488E-B157-CB91BDDA94C0}|Inventory_Management\\Inventory_Management.csproj|e:\\1.school\\self project\\ostad-asp-core\\inventory_management\\inventory_management\\views\\shared\\_layoutadmin.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{59C1B4BA-9776-488E-B157-CB91BDDA94C0}|Inventory_Management\\Inventory_Management.csproj|solutionrelative:inventory_management\\views\\shared\\_layoutadmin.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{59C1B4BA-9776-488E-B157-CB91BDDA94C0}|Inventory_Management\\Inventory_Management.csproj|e:\\1.school\\self project\\ostad-asp-core\\inventory_management\\inventory_management\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{59C1B4BA-9776-488E-B157-CB91BDDA94C0}|Inventory_Management\\Inventory_Management.csproj|solutionrelative:inventory_management\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{59C1B4BA-9776-488E-B157-CB91BDDA94C0}|Inventory_Management\\Inventory_Management.csproj|E:\\1.SCHOOL\\SELF PROJECT\\Ostad-asp-core\\Inventory_Management\\inventory_management\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{59C1B4BA-9776-488E-B157-CB91BDDA94C0}|Inventory_Management\\Inventory_Management.csproj|solutionrelative:inventory_management\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{59C1B4BA-9776-488E-B157-CB91BDDA94C0}|Inventory_Management\\Inventory_Management.csproj|e:\\1.school\\self project\\ostad-asp-core\\inventory_management\\inventory_management\\views\\shared\\partials\\_partialsidenav.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{59C1B4BA-9776-488E-B157-CB91BDDA94C0}|Inventory_Management\\Inventory_Management.csproj|solutionrelative:inventory_management\\views\\shared\\partials\\_partialsidenav.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{59C1B4BA-9776-488E-B157-CB91BDDA94C0}|Inventory_Management\\Inventory_Management.csproj|e:\\1.school\\self project\\ostad-asp-core\\inventory_management\\inventory_management\\models\\equipment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{59C1B4BA-9776-488E-B157-CB91BDDA94C0}|Inventory_Management\\Inventory_Management.csproj|E:\\1.SCHOOL\\SELF PROJECT\\Ostad-asp-core\\Inventory_Management\\inventory_management\\models\\equipment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{59C1B4BA-9776-488E-B157-CB91BDDA94C0}|Inventory_Management\\Inventory_Management.csproj|solutionrelative:inventory_management\\models\\equipment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{59C1B4BA-9776-488E-B157-CB91BDDA94C0}|Inventory_Management\\Inventory_Management.csproj|E:\\1.SCHOOL\\SELF PROJECT\\Ostad-asp-core\\Inventory_Management\\inventory_management\\views\\shared\\_layoutauth.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{59C1B4BA-9776-488E-B157-CB91BDDA94C0}|Inventory_Management\\Inventory_Management.csproj|solutionrelative:inventory_management\\views\\shared\\_layoutauth.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{59C1B4BA-9776-488E-B157-CB91BDDA94C0}|Inventory_Management\\Inventory_Management.csproj|E:\\1.SCHOOL\\SELF PROJECT\\Ostad-asp-core\\Inventory_Management\\inventory_management\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{59C1B4BA-9776-488E-B157-CB91BDDA94C0}|Inventory_Management\\Inventory_Management.csproj|solutionrelative:inventory_management\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{59C1B4BA-9776-488E-B157-CB91BDDA94C0}|Inventory_Management\\Inventory_Management.csproj|E:\\1.SCHOOL\\SELF PROJECT\\Ostad-asp-core\\Inventory_Management\\inventory_management\\content\\assets\\common.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{59C1B4BA-9776-488E-B157-CB91BDDA94C0}|Inventory_Management\\Inventory_Management.csproj|solutionrelative:inventory_management\\content\\assets\\common.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{59C1B4BA-9776-488E-B157-CB91BDDA94C0}|Inventory_Management\\Inventory_Management.csproj|E:\\1.SCHOOL\\SELF PROJECT\\Ostad-asp-core\\Inventory_Management\\inventory_management\\views\\shared\\partials\\_partialtopnav.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{59C1B4BA-9776-488E-B157-CB91BDDA94C0}|Inventory_Management\\Inventory_Management.csproj|solutionrelative:inventory_management\\views\\shared\\partials\\_partialtopnav.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{59C1B4BA-9776-488E-B157-CB91BDDA94C0}|Inventory_Management\\Inventory_Management.csproj|E:\\1.SCHOOL\\SELF PROJECT\\Ostad-asp-core\\Inventory_Management\\inventory_management\\views\\shared\\partials\\_partialsidenav.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{59C1B4BA-9776-488E-B157-CB91BDDA94C0}|Inventory_Management\\Inventory_Management.csproj|solutionrelative:inventory_management\\views\\shared\\partials\\_partialsidenav.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
   "DocumentGroupContainers": [
@@ -58,17 +66,17 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 8,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 0,
               "Title": "User.cs",
               "DocumentMoniker": "E:\\1.SCHOOL\\SELF PROJECT\\Ostad-asp-core\\Inventory_Management\\Inventory_Management\\Models\\User.cs",
               "RelativeDocumentMoniker": "Inventory_Management\\Models\\User.cs",
               "ToolTip": "E:\\1.SCHOOL\\SELF PROJECT\\Ostad-asp-core\\Inventory_Management\\Inventory_Management\\Models\\User.cs",
               "RelativeToolTip": "Inventory_Management\\Models\\User.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAB4AAAAWAAAA",
+              "ViewState": "AQIAABUAAAAAAAAAAAAYwBsAAAAnAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-06-29T04:37:21.666Z",
               "IsPinned": true,
@@ -79,86 +87,142 @@
               "Name": "ST:1:0:{e8b06f53-6d01-11d2-aa7d-00c04f990343}"
             },
             {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "_PartialSidenav.cshtml",
-              "DocumentMoniker": "E:\\1.SCHOOL\\SELF PROJECT\\Ostad-asp-core\\Inventory_Management\\Inventory_Management\\Views\\Shared\\Partials\\_PartialSidenav.cshtml",
-              "RelativeDocumentMoniker": "Inventory_Management\\Views\\Shared\\Partials\\_PartialSidenav.cshtml",
-              "ToolTip": "E:\\1.SCHOOL\\SELF PROJECT\\Ostad-asp-core\\Inventory_Management\\Inventory_Management\\Views\\Shared\\Partials\\_PartialSidenav.cshtml",
-              "RelativeToolTip": "Inventory_Management\\Views\\Shared\\Partials\\_PartialSidenav.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAIAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-06-29T05:17:48.827Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "AuthController.cs",
-              "DocumentMoniker": "E:\\1.SCHOOL\\SELF PROJECT\\Ostad-asp-core\\Inventory_Management\\Inventory_Management\\Controllers\\AuthController.cs",
-              "RelativeDocumentMoniker": "Inventory_Management\\Controllers\\AuthController.cs",
-              "ToolTip": "E:\\1.SCHOOL\\SELF PROJECT\\Ostad-asp-core\\Inventory_Management\\Inventory_Management\\Controllers\\AuthController.cs",
-              "RelativeToolTip": "Inventory_Management\\Controllers\\AuthController.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAADAAAAAqAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-29T04:22:11.599Z",
-              "EditorCaption": ""
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "Login.cshtml",
-              "DocumentMoniker": "E:\\1.SCHOOL\\SELF PROJECT\\Ostad-asp-core\\Inventory_Management\\Inventory_Management\\Views\\Auth\\Login.cshtml",
-              "RelativeDocumentMoniker": "Inventory_Management\\Views\\Auth\\Login.cshtml",
-              "ToolTip": "E:\\1.SCHOOL\\SELF PROJECT\\Ostad-asp-core\\Inventory_Management\\Inventory_Management\\Views\\Auth\\Login.cshtml",
-              "RelativeToolTip": "Inventory_Management\\Views\\Auth\\Login.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAA9AAAA",
+              "Title": "DashboardViewModel.cs",
+              "DocumentMoniker": "E:\\1.SCHOOL\\SELF PROJECT\\Ostad-asp-core\\Inventory_Management\\Inventory_Management\\ViewModels\\DashboardViewModel.cs",
+              "RelativeDocumentMoniker": "Inventory_Management\\ViewModels\\DashboardViewModel.cs",
+              "ToolTip": "E:\\1.SCHOOL\\SELF PROJECT\\Ostad-asp-core\\Inventory_Management\\Inventory_Management\\ViewModels\\DashboardViewModel.cs",
+              "RelativeToolTip": "Inventory_Management\\ViewModels\\DashboardViewModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAA3AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-14T17:22:30.364Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "_LayoutAdmin.cshtml",
+              "DocumentMoniker": "E:\\1.SCHOOL\\SELF PROJECT\\Ostad-asp-core\\Inventory_Management\\Inventory_Management\\Views\\Shared\\_LayoutAdmin.cshtml",
+              "RelativeDocumentMoniker": "Inventory_Management\\Views\\Shared\\_LayoutAdmin.cshtml",
+              "ToolTip": "E:\\1.SCHOOL\\SELF PROJECT\\Ostad-asp-core\\Inventory_Management\\Inventory_Management\\Views\\Shared\\_LayoutAdmin.cshtml",
+              "RelativeToolTip": "Inventory_Management\\Views\\Shared\\_LayoutAdmin.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAADIAAAAqAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-06-29T04:03:05.807Z",
+              "WhenOpened": "2024-07-13T16:37:35.044Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "E:\\1.SCHOOL\\SELF PROJECT\\Ostad-asp-core\\Inventory_Management\\Inventory_Management\\Views\\Dashboard\\Index.cshtml",
-              "RelativeDocumentMoniker": "Inventory_Management\\Views\\Dashboard\\Index.cshtml",
-              "ToolTip": "E:\\1.SCHOOL\\SELF PROJECT\\Ostad-asp-core\\Inventory_Management\\Inventory_Management\\Views\\Dashboard\\Index.cshtml",
-              "RelativeToolTip": "Inventory_Management\\Views\\Dashboard\\Index.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-06-29T04:01:51.703Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
               "Title": "DashboardController.cs",
               "DocumentMoniker": "E:\\1.SCHOOL\\SELF PROJECT\\Ostad-asp-core\\Inventory_Management\\Inventory_Management\\Controllers\\DashboardController.cs",
               "RelativeDocumentMoniker": "Inventory_Management\\Controllers\\DashboardController.cs",
               "ToolTip": "E:\\1.SCHOOL\\SELF PROJECT\\Ostad-asp-core\\Inventory_Management\\Inventory_Management\\Controllers\\DashboardController.cs",
               "RelativeToolTip": "Inventory_Management\\Controllers\\DashboardController.cs",
-              "ViewState": "AQIAAAMAAAAAAAAAAAAAAA8AAAAuAAAA",
+              "ViewState": "AQIAAA4AAAAAAAAAAAAAwB8AAAAMAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-06-11T16:10:22.366Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "_PartialTopnav.cshtml",
-              "DocumentMoniker": "E:\\1.SCHOOL\\SELF PROJECT\\Ostad-asp-core\\Inventory_Management\\Inventory_Management\\Views\\Shared\\Partials\\_PartialTopnav.cshtml",
-              "RelativeDocumentMoniker": "Inventory_Management\\Views\\Shared\\Partials\\_PartialTopnav.cshtml",
-              "ToolTip": "E:\\1.SCHOOL\\SELF PROJECT\\Ostad-asp-core\\Inventory_Management\\Inventory_Management\\Views\\Shared\\Partials\\_PartialTopnav.cshtml",
-              "RelativeToolTip": "Inventory_Management\\Views\\Shared\\Partials\\_PartialTopnav.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAA9AAAA",
+              "DocumentIndex": 4,
+              "Title": "Login.cshtml",
+              "DocumentMoniker": "E:\\1.SCHOOL\\SELF PROJECT\\Ostad-asp-core\\Inventory_Management\\Inventory_Management\\Views\\Auth\\Login.cshtml",
+              "RelativeDocumentMoniker": "Inventory_Management\\Views\\Auth\\Login.cshtml",
+              "ToolTip": "E:\\1.SCHOOL\\SELF PROJECT\\Ostad-asp-core\\Inventory_Management\\Inventory_Management\\Views\\Auth\\Login.cshtml",
+              "RelativeToolTip": "Inventory_Management\\Views\\Auth\\Login.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAABLAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-06-29T04:23:06.628Z",
+              "WhenOpened": "2024-06-29T04:03:05.807Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 5,
+              "Title": "AuthController.cs",
+              "DocumentMoniker": "E:\\1.SCHOOL\\SELF PROJECT\\Ostad-asp-core\\Inventory_Management\\Inventory_Management\\Controllers\\AuthController.cs",
+              "RelativeDocumentMoniker": "Inventory_Management\\Controllers\\AuthController.cs",
+              "ToolTip": "E:\\1.SCHOOL\\SELF PROJECT\\Ostad-asp-core\\Inventory_Management\\Inventory_Management\\Controllers\\AuthController.cs",
+              "RelativeToolTip": "Inventory_Management\\Controllers\\AuthController.cs",
+              "ViewState": "AQIAABYAAAAAAAAAAAAQwBgAAAAcAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-29T04:22:11.599Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "E:\\1.SCHOOL\\SELF PROJECT\\Ostad-asp-core\\Inventory_Management\\Inventory_Management\\Views\\Dashboard\\Index.cshtml",
+              "RelativeDocumentMoniker": "Inventory_Management\\Views\\Dashboard\\Index.cshtml",
+              "ToolTip": "E:\\1.SCHOOL\\SELF PROJECT\\Ostad-asp-core\\Inventory_Management\\Inventory_Management\\Views\\Dashboard\\Index.cshtml",
+              "RelativeToolTip": "Inventory_Management\\Views\\Dashboard\\Index.cshtml",
+              "ViewState": "AQIAACcAAAAAAAAAAAAAAEIAAABCAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-29T04:01:51.703Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Web.config",
+              "DocumentMoniker": "E:\\1.SCHOOL\\SELF PROJECT\\Ostad-asp-core\\Inventory_Management\\Inventory_Management\\Web.config",
+              "RelativeDocumentMoniker": "Inventory_Management\\Web.config",
+              "ToolTip": "E:\\1.SCHOOL\\SELF PROJECT\\Ostad-asp-core\\Inventory_Management\\Inventory_Management\\Web.config",
+              "RelativeToolTip": "Inventory_Management\\Web.config",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAACqAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
+              "WhenOpened": "2024-07-13T05:11:56.367Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "_LayoutAuth.cshtml",
+              "DocumentMoniker": "E:\\1.SCHOOL\\SELF PROJECT\\Ostad-asp-core\\Inventory_Management\\Inventory_Management\\Views\\Shared\\_LayoutAuth.cshtml",
+              "RelativeDocumentMoniker": "Inventory_Management\\Views\\Shared\\_LayoutAuth.cshtml",
+              "ToolTip": "E:\\1.SCHOOL\\SELF PROJECT\\Ostad-asp-core\\Inventory_Management\\Inventory_Management\\Views\\Shared\\_LayoutAuth.cshtml",
+              "RelativeToolTip": "Inventory_Management\\Views\\Shared\\_LayoutAuth.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-13T16:37:31.495Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "E:\\1.SCHOOL\\SELF PROJECT\\Ostad-asp-core\\Inventory_Management\\Inventory_Management\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "Inventory_Management\\Controllers\\HomeController.cs",
+              "ToolTip": "E:\\1.SCHOOL\\SELF PROJECT\\Ostad-asp-core\\Inventory_Management\\Inventory_Management\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "Inventory_Management\\Controllers\\HomeController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-29T06:08:47.448Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Equipment.cs",
+              "DocumentMoniker": "E:\\1.SCHOOL\\SELF PROJECT\\Ostad-asp-core\\Inventory_Management\\Inventory_Management\\Models\\Equipment.cs",
+              "RelativeDocumentMoniker": "Inventory_Management\\Models\\Equipment.cs",
+              "ToolTip": "E:\\1.SCHOOL\\SELF PROJECT\\Ostad-asp-core\\Inventory_Management\\Inventory_Management\\Models\\Equipment.cs",
+              "RelativeToolTip": "Inventory_Management\\Models\\Equipment.cs",
+              "ViewState": "AQIAABQAAAAAAAAAAAA9wCgAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-29T03:46:07.698Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
               "Title": "common.css",
               "DocumentMoniker": "E:\\1.SCHOOL\\SELF PROJECT\\Ostad-asp-core\\Inventory_Management\\Inventory_Management\\Content\\Assets\\common.css",
               "RelativeDocumentMoniker": "Inventory_Management\\Content\\Assets\\common.css",
@@ -171,54 +235,28 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "_LayoutAuth.cshtml",
-              "DocumentMoniker": "E:\\1.SCHOOL\\SELF PROJECT\\Ostad-asp-core\\Inventory_Management\\Inventory_Management\\Views\\Shared\\_LayoutAuth.cshtml",
-              "RelativeDocumentMoniker": "Inventory_Management\\Views\\Shared\\_LayoutAuth.cshtml",
-              "ToolTip": "E:\\1.SCHOOL\\SELF PROJECT\\Ostad-asp-core\\Inventory_Management\\Inventory_Management\\Views\\Shared\\_LayoutAuth.cshtml",
-              "RelativeToolTip": "Inventory_Management\\Views\\Shared\\_LayoutAuth.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAdAAAA",
+              "DocumentIndex": 12,
+              "Title": "_PartialTopnav.cshtml",
+              "DocumentMoniker": "E:\\1.SCHOOL\\SELF PROJECT\\Ostad-asp-core\\Inventory_Management\\Inventory_Management\\Views\\Shared\\Partials\\_PartialTopnav.cshtml",
+              "RelativeDocumentMoniker": "Inventory_Management\\Views\\Shared\\Partials\\_PartialTopnav.cshtml",
+              "ToolTip": "E:\\1.SCHOOL\\SELF PROJECT\\Ostad-asp-core\\Inventory_Management\\Inventory_Management\\Views\\Shared\\Partials\\_PartialTopnav.cshtml",
+              "RelativeToolTip": "Inventory_Management\\Views\\Shared\\Partials\\_PartialTopnav.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAA9AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-06-29T05:53:08.727Z",
+              "WhenOpened": "2024-06-29T04:23:06.628Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "HomeController.cs",
-              "DocumentMoniker": "E:\\1.SCHOOL\\SELF PROJECT\\Ostad-asp-core\\Inventory_Management\\Inventory_Management\\Controllers\\HomeController.cs",
-              "RelativeDocumentMoniker": "Inventory_Management\\Controllers\\HomeController.cs",
-              "ToolTip": "E:\\1.SCHOOL\\SELF PROJECT\\Ostad-asp-core\\Inventory_Management\\Inventory_Management\\Controllers\\HomeController.cs",
-              "RelativeToolTip": "Inventory_Management\\Controllers\\HomeController.cs",
-              "ViewState": "AQIAAAMAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-29T06:08:47.448Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "_LayoutAdmin.cshtml",
-              "DocumentMoniker": "E:\\1.SCHOOL\\SELF PROJECT\\Ostad-asp-core\\Inventory_Management\\Inventory_Management\\Views\\Shared\\_LayoutAdmin.cshtml",
-              "RelativeDocumentMoniker": "Inventory_Management\\Views\\Shared\\_LayoutAdmin.cshtml",
-              "ToolTip": "E:\\1.SCHOOL\\SELF PROJECT\\Ostad-asp-core\\Inventory_Management\\Inventory_Management\\Views\\Shared\\_LayoutAdmin.cshtml",
-              "RelativeToolTip": "Inventory_Management\\Views\\Shared\\_LayoutAdmin.cshtml",
-              "ViewState": "AQIAACIAAAAAAAAAAAAkwEcAAAAAAAAA",
+              "DocumentIndex": 13,
+              "Title": "_PartialSidenav.cshtml",
+              "DocumentMoniker": "E:\\1.SCHOOL\\SELF PROJECT\\Ostad-asp-core\\Inventory_Management\\Inventory_Management\\Views\\Shared\\Partials\\_PartialSidenav.cshtml",
+              "RelativeDocumentMoniker": "Inventory_Management\\Views\\Shared\\Partials\\_PartialSidenav.cshtml",
+              "ToolTip": "E:\\1.SCHOOL\\SELF PROJECT\\Ostad-asp-core\\Inventory_Management\\Inventory_Management\\Views\\Shared\\Partials\\_PartialSidenav.cshtml",
+              "RelativeToolTip": "Inventory_Management\\Views\\Shared\\Partials\\_PartialSidenav.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAIAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-06-29T05:53:14.061Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "Equipment.cs",
-              "DocumentMoniker": "E:\\1.SCHOOL\\SELF PROJECT\\Ostad-asp-core\\Inventory_Management\\Inventory_Management\\Models\\Equipment.cs",
-              "RelativeDocumentMoniker": "Inventory_Management\\Models\\Equipment.cs",
-              "ToolTip": "E:\\1.SCHOOL\\SELF PROJECT\\Ostad-asp-core\\Inventory_Management\\Inventory_Management\\Models\\Equipment.cs",
-              "RelativeToolTip": "Inventory_Management\\Models\\Equipment.cs",
-              "ViewState": "AQIAABsAAAAAAAAAAAA+wCgAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-29T03:46:07.698Z",
+              "WhenOpened": "2024-06-29T05:17:48.827Z",
               "EditorCaption": ""
             }
           ]

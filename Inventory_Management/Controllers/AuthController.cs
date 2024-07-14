@@ -22,6 +22,7 @@ namespace Inventory_Management.Controllers
 
         // POST: Auth
         [HttpPost]
+        //use FormCollection
         public ActionResult Login(User user)
         {
             User demoUser = new User();

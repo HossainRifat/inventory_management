@@ -1,7 +1,10 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Configuration;
 using System.Linq;
 using System.Web;
+
+using System.Data.SqlClient;
 
 namespace Inventory_Management.Models
 {
@@ -24,20 +27,44 @@ namespace Inventory_Management.Models
         public bool IsPhoneVerified { get; set; }
         public Roles Role { get; set; }
 
-        public static User memeber1 = new User() { Id = 1, Username = "Jon", Email = "jon@gmail.com", Name = "Jon Doe", Role = Roles.Member };
-        public static User memeber2 = new User() { Id = 2, Username = "Jane", Email = "jane@gmail.com", Name = "Jane Doe", Role = Roles.Member };
-        public static User memeber3 = new User() { Id = 3, Username = "Jack", Email = "jack@gmail.com", Name = "Jack Doe", Role = Roles.Member };
-
-        public static List<User> MemberList()
+        private SqlConnection prepareConnection()
         {
-            List<User> members = new List<User>()
-            {
-                User.memeber1,
-                User.memeber2,
-                User.memeber3
-            };
+            string ConnString = ConfigurationManager.ConnectionStrings["ConnString"].ConnectionString;
+            SqlConnection conn = new SqlConnection(ConnString);
+            conn.Open();
 
-            return members;
+            return conn;
+        }
+
+        public List<User> UserList()
+        {
+            List<User> preparedData = new List<User>();
+
+            SqlCommand cmd = new SqlCommand();
+            cmd.Connection = prepareConnection();
+            cmd.CommandText = "spIM_LstUser";
+            cmd.Parameters.Clear();
+            cmd.CommandType = System.Data.CommandType.StoredProcedure;
+            cmd.CommandTimeout = 0;
+
+            SqlDataReader reader = cmd.ExecuteReader();
+
+            if (reader.HasRows)
+            {
+                while (reader.Read())
+                {
+                    User user = new User();
+                    user.Id = Convert.ToInt32(reader["ID"]);
+                    user.Name = reader["Name"].ToString();
+                    user.Email = reader["Email"].ToString();
+                    user.Phone = reader["Phone"].ToString();
+                    user.Status = Convert.ToInt16(reader["Status"]);
+                    user.Role = (Roles)Convert.ToInt16(reader["Role"]);
+                    preparedData.Add(user);
+                }
+            }
+
+            return preparedData;
         }
 
     }
