@@ -38,17 +38,6 @@ namespace Inventory_Management.Models
             new Equipment() { Id = 4, Name = "Mouse", Model = "Dell Mouse", Sku = "SKU-004", Mpn = "MPN-004", SerialNumber = "SN-004", Description = "Dell Mouse", Image = "mouse.jpg", Status = EquipmentStatus.Active, Quantity = 15, CountryId = 1, SupplierId = 1, WarehouseId = 1, PurchaseDate = DateTime.Now, WarrantyDate = DateTime.Now, CreatedAt = DateTime.Now, UpdatedAt = DateTime.Now }
         };
 
-        public static List<Equipment> GetAssignedEquipments()
-        {
-            List<Equipment> assignedEquipments = new List<Equipment>()
-            {
-                new Equipment() { Id = 1, Name = "Laptop", Model = "Dell Inspiron 15", Sku = "SKU-001", Mpn = "MPN-001", SerialNumber = "SN-001", Description = "Dell Inspiron 15", Image = "laptop.jpg", Status = EquipmentStatus.Active, Quantity = 10, CountryId = 1, SupplierId = 1, WarehouseId = 1, PurchaseDate = DateTime.Now, WarrantyDate = DateTime.Now, CreatedAt = DateTime.Now, UpdatedAt = DateTime.Now, AssignedUser = User.memeber1 },
-                new Equipment() { Id = 2, Name = "Monitor", Model = "Dell Monitor", Sku = "SKU-002", Mpn = "MPN-002", SerialNumber = "SN-002", Description = "Dell Monitor", Image = "monitor.jpg", Status = EquipmentStatus.Active, Quantity = 5, CountryId = 1, SupplierId = 1, WarehouseId = 1, PurchaseDate = DateTime.Now, WarrantyDate = DateTime.Now, CreatedAt = DateTime.Now, UpdatedAt = DateTime.Now, AssignedUser = User.memeber2 },
-                new Equipment() { Id = 3, Name = "Keyboard", Model = "Dell Keyboard", Sku = "SKU-003", Mpn = "MPN-003", SerialNumber = "SN-003", Description = "Dell Keyboard", Image = "keyboard.jpg", Status = EquipmentStatus.Inactive, Quantity = 20, CountryId = 1, SupplierId = 1, WarehouseId = 1, PurchaseDate = DateTime.Now, WarrantyDate = DateTime.Now, CreatedAt = DateTime.Now, UpdatedAt = DateTime.Now, AssignedUser = User.memeber3 }
-            };
-
-            return assignedEquipments;
-        }
         
     }
 }

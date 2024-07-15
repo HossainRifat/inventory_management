@@ -13,7 +13,7 @@ namespace Inventory_Management.Controllers
         // GET: Dashboard
         public ActionResult Index()
         {
-            if (Session["username"] == null || Session["role"] == null)
+            if (Session["username"] == null)
             {
                 return RedirectToAction("Login", "Auth");
             }

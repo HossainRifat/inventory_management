@@ -25,22 +25,25 @@ namespace Inventory_Management.Controllers
         //use FormCollection
         public ActionResult Login(User user)
         {
-            User demoUser = new User();
-            demoUser.Username = "admin";
-            demoUser.Password = "12345678";
-            demoUser.Role = Roles.Admin;
 
-            if(demoUser.Username == user.Username && demoUser.Password == user.Password)
+            User loggedUser = new User();
+            loggedUser = user.Login(user.Username, user.Password);
+
+            if (loggedUser != null)
             {
-                Session["username"] = demoUser.Username;
-                Session["role"] = demoUser.Role;
+                Session["username"] = loggedUser.Username;
+                Session["userid"] = loggedUser.Id;
+                Session["role"] = loggedUser.Role;
+
                 return RedirectToAction("Index", "Dashboard");
             }
             else
             {
-                ViewBag.error = "Invalid username or password!";
-                return View("Index");
+                ViewBag.subModule = "Login";
+                ViewBag.Error = "Invalid Username or Password";
+                return View(user);
             }
+
         }
 
         // GET: Auth
